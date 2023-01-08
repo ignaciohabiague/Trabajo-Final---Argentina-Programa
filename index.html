@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ff77e2e681.js" crossorigin="anonymous"></script>
+    <script src="funciones.js"></script>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="nav" id="mi_nav">
+            <a href="#inicio" class="active">Inicio</a>
+
+            <div class="dropdown">
+                <button class="boton">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#contacto">Contacto</a>
+                    <a href="#educacion">Educación</a>
+                    <a href="#habilidades">Habilidades</a>
+                    <a href="#reconocimientos">Reconocimientos</a>
+                    <a href="#perfil">Perfil</a>
+                    <button class="boton">Experiencia
+                        <i class="fa-solid fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#compositor">Compositor Musical</a>
+                        <a href="#productor">Productor Musical</a>
+                        <a href="#colaboracion">Colaboraciones</a>
+                    </div>
+                </div>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="miFuncion()">&#9776;</a>
+        </div>
+
+        <div class="col_izq">
+            <div class="desc">
+                <div class="foto">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d6/Ian_Anderson_1977.JPG" alt="Ian Anderson Joven">
+                </div>
+                <h2>Ian Anderson <br><span>Cantante, músico, compositor</span></h2>
+            </div>
+            <div class="contacto">
+                <h3 class="titulo" id="contacto">Contacto:</h3>
+                <ul>
+                    <li>
+                        <span class="icono"><i class="fa-solid fa-phone"></i></span>
+                        <span class="texto">011-44-141-123-4567</span>
+                    </li>
+                    <li>
+                        <span class="icono"><i class="fa-solid fa-envelope"></i></span>
+                        <span class="texto">jethro.tull@gmail.com</span>
+                    </li>
+                    <li>
+                        <span class="icono"><i class="fa-solid fa-location-dot"></i></span>
+                        <span class="texto">32 Spring Court, Dunfermline </span>
+                    </li>
+                    <li>
+                        <span class="icono"><i class="fa-brands fa-linkedin"></i></span>
+                        <span class="texto">linkedin.com/in/IanAnderson</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="contacto educacion">
+                <h3 class="titulo" id="educacion">Educación:</h3>
+                <ul>
+                    <li>
+                        <h4>Blackpool Grammar School</h4>
+                        <h5>Blackpool, Lacanshire</h5>
+                        <h5>1959</h5>
+                    </li>
+                    <li>
+                        <h4>Colegio de Arte Blackpool</h4>
+                        <h5>Blackpool, Lacanshire</h5>
+                        <h5>1964-1966</h5>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="contacto habilidad">
+                <h3 class="titulo" id="habilidades">Habilidades:</h3>
+                <ul>
+                    <li>
+                        <h5>Flauta Traversa</h5>
+                    </li>
+                    <li>
+                        <h5>Guitarra Acústica</h5>
+                    </li>
+                    <li>
+                        <h5>Voz/Canto</h5>
+                    </li>
+                    <li>
+                        <h5>Teclado</h5>
+                    </li>
+                    <li>
+                        <h5>Balalaika</h5>
+                    </li>
+                    <li>
+                        <h5>Saxofón</h5>
+                    </li>
+                    <li>
+                        <h5>Armónica</h5>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="contacto reconocimiento" id="contacto">
+                <h3 class="titulo">Reconocimientos:</h3>
+                <ul>
+                    <li>
+                        <h4>Premio Ivor Novello</h4>
+                        <h5>2006</h5>
+                    </li>
+                    <li>
+                        <h4>Doctorado Honorario de Literatura</h4>
+                        <h5>Universidad Heriot-Watt</h5>
+                        <h5>2006</h5>
+                    </li>
+                    <li>
+                        <h4>Miembro de la Orden del Imperio Británico</h4>
+                        <h5>2008</h5>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col_der">
+            <div class="info" id="perfil">
+                <h2 class="titulo2">Perfil</h2>
+                <p>Músico galardonado y multiinstrumentalista consumado, con varios años de experiencia con orquestas y bandas folklóricas. Hábil vocalista y flautista, líder de la banda Jethro Tull. Adepto en escritura y composición musical, y producción de composiciones digitales.</p></p>
+            </div>
+            <div class="info">
+                <h2 class="titulo2" id="experiencia">Experiencia:</h2>
+                <div class="caja">
+                    <div class="experiencia">
+                        <div class="casilla" id="compositor">
+                            <h3>Compositor Musical</h3>
+                            <h4>Jethro Tull</h4>
+                            <ul>
+                                <li>
+                                    <span class="icono"><i class="fa-solid fa-calendar"></i></span>
+                                    <span class="texto">1975 - Presente</span>
+                                </li>
+                                <li>
+                                    <span class="icono"><i class="fa-solid fa-location-dot"></i></span>
+                                    <span class="texto">Blackpool, Lancashire, Inglaterra</span>
+                                </li>
+                            </ul>
+                            <p>Creador de música original y letrista para múltiples álbumes: Aqualung, War Child, Heavy Horses, Songs From The Woods.</p>
+                        </div>
+                        <div class="casilla" id="productor">
+                            <h3>Productor Musical</h3>
+                            <h4>Now We Are Six</h4>
+                            <h5>Steeleye Span</h5>
+                            <ul>
+                                <li>
+                                    <span class="icono"><i class="fa-solid fa-calendar"></i></span>
+                                    <span class="texto">1974</span>
+                                </li>
+                            </ul>
+                            <h4>Woman In The Wings</h4>
+                            <h5>Maddy Prior</h5>
+                            <ul>
+                                <li>
+                                    <span class="icono"><i class="fa-solid fa-calendar"></i></span>
+                                    <span class="texto">1978</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="casilla" id="colaboracion">
+                            <h3>Colaboraciones</h3>
+
+                            <h4>Martin Barre, Dave Pegg, Peter-John Vettese, Orquesta Sinfónica de Londres</h4>
+                            <h5>A Classic Case</h5>
+                            <ul>
+                                <li>
+                                    <span class="icono"><i class="fa-solid fa-calendar"></i></span>
+                                    <span class="texto">1984</span>
+                                </li>
+                            </ul>
+
+                            <h4>Honeymoon Suite</h4>
+                            <h5>The Big Prize</h5>
+                            <ul>
+                                <li>
+                                    <span class="icono"><i class="fa-solid fa-calendar"></i></span>
+                                    <span class="texto">1985</span>
+                                </li>
+                            </ul>
+
+                            <h4>Uriah Heep</h4>
+                            <h5>Acoustically Driven y Electrically Driven</h5>
+                            <ul>
+                                <li>
+                                    <span class="icono"><i class="fa-solid fa-calendar"></i></span>
+                                    <span class="texto">2001</span>
+                                </li>
+                            </ul>
+
+                            <h4>Billy Sherwood y otros</h4>
+                            <h5>Back Against The Wall</h5>
+                            <ul>
+                                <li>
+                                    <span class="icono"><i class="fa-solid fa-calendar"></i></span>
+                                    <span class="texto">2005</span>
+                                </li>
+                            </ul>
+
+                            <h4>Cuarteto de Cuerdas Carducci</h4>
+                            <h5>Jethro Tull - The String Quartets</h5>
+                            <ul>
+                                <li>
+                                    <span class="icono"><i class="fa-solid fa-calendar"></i></span>
+                                    <span class="texto">2017</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
