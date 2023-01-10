@@ -15,9 +15,11 @@ body{
     min-height: 100vh;
 }
 
+/*Nav con display nulo para laptops y notebooks*/
 .nav{
   display: none;
 }
+
 .contenedor{
     position: relative;
     width: 100%;
@@ -236,6 +238,7 @@ p{
     font-size: 15px;
 }
 
+/*Media queries para dispositivos móviles*/
 @media only screen and (max-width:600px){
     .contenedor{
         margin: 10px;
@@ -246,6 +249,7 @@ p{
       text-align: center;
     }
 
+/*Barra de navegación, visible en dispositivos móbiles*/
     .nav {
       display: flex;
       background-color: steelblue;
@@ -272,6 +276,7 @@ p{
       display: none;
     }
 
+/*Menú dropdown para la barra de navegación*/
     .dropdown {
       float: left;
       overflow: hidden;
